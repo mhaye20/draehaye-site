@@ -3,7 +3,8 @@
     "allow": [
       "WebFetch(domain:www.drae.me)",
       "WebSearch",
-      "Bash(cd:*)"
+      "Bash(cd:*)",
+      "WebFetch(domain:support.squarespace.com)"
     ]
   }
 }

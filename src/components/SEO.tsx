@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async'
 
-const SITE_URL = 'https://draehaye.netlify.app'
+const SITE_URL = 'https://www.drae.me'
 const OG_IMAGE = 'https://images.squarespace-cdn.com/content/v1/635972523daff54c9ff48d5e/a6c3d28b-9487-43c2-afde-3a81bb58a777/IMG_4585-Edit.jpg?format=1500w'
 
 interface SEOProps {
