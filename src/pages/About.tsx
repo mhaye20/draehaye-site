@@ -128,12 +128,10 @@ export default function About() {
                 {settings.bio}
               </p>
               <p className="about-bio-line font-body text-charcoal/75" style={{ fontSize: 'clamp(15px, 2vw, 17px)', lineHeight: 1.8, marginBottom: '1.25rem' }}>
-                Based in Brooklyn, Andrae draws inspiration from the rhythm and energy of New York
-                City — its people, its textures, its light. Every frame tells a story of authenticity
-                and connection.
+                {settings.bioSecond}
               </p>
               <p className="about-bio-line font-body text-charcoal/75" style={{ fontSize: 'clamp(15px, 2vw, 17px)', lineHeight: 1.8 }}>
-                Available for editorial, commercial, and personal projects worldwide.
+                {settings.bioThird}
               </p>
             </div>
 

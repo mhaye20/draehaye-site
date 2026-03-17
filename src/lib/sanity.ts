@@ -53,5 +53,7 @@ export const FEATURED_PHOTOS_QUERY = `*[_type == "photo" && featured == true] | 
 export const SITE_SETTINGS_QUERY = `*[_type == "siteSettings"][0] {
   aboutPhoto,
   bio,
+  bioSecond,
+  bioThird,
   tagline
 }`

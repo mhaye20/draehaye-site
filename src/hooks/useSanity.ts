@@ -32,6 +32,8 @@ interface SanityCategory {
 interface SanitySettings {
   aboutPhoto: any
   bio: string
+  bioSecond: string
+  bioThird: string
   tagline: string
 }
 
@@ -127,6 +129,8 @@ export function useSiteSettings() {
     return {
       aboutPhoto: siteConfig.aboutImage,
       bio: siteConfig.bio,
+      bioSecond: 'Based in Brooklyn, Andrae draws inspiration from the rhythm and energy of New York City — its people, its textures, its light. Every frame tells a story of authenticity and connection.',
+      bioThird: 'Available for editorial, commercial, and personal projects worldwide.',
       tagline: siteConfig.tagline,
     }
   }
@@ -134,6 +138,8 @@ export function useSiteSettings() {
   return {
     aboutPhoto: data.aboutPhoto ? urlFor(data.aboutPhoto).width(900).quality(85).url() : siteConfig.aboutImage,
     bio: data.bio || siteConfig.bio,
+    bioSecond: data.bioSecond || 'Based in Brooklyn, Andrae draws inspiration from the rhythm and energy of New York City — its people, its textures, its light. Every frame tells a story of authenticity and connection.',
+    bioThird: data.bioThird || 'Available for editorial, commercial, and personal projects worldwide.',
     tagline: data.tagline || siteConfig.tagline,
   }
 }
