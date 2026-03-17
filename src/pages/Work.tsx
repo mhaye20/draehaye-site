@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, useMemo } from 'react'
+import SEO from '@/components/SEO'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import PortfolioGrid from '@/components/portfolio/PortfolioGrid'
@@ -61,6 +62,11 @@ export default function Work() {
 
   return (
     <main className="min-h-screen pb-16 md:pb-24">
+      <SEO
+        title="Portfolio"
+        description="View the photography portfolio of Andrae Drae Haye — portraits, fashion, street, and food photography in Brooklyn & New York City. Available for bookings."
+        path="/work"
+      />
       <div className="nav-spacer" />
 
       <div ref={headerRef} className="page-container mb-10 md:mb-16">

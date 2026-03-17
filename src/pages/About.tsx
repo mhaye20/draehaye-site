@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import SEO from '@/components/SEO'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Instagram, Mail, MapPin } from 'lucide-react'
@@ -89,6 +90,11 @@ export default function About() {
 
   return (
     <main className="min-h-screen pb-16 md:pb-24">
+      <SEO
+        title="About"
+        description="Meet Andrae Drae Haye — a Brooklyn, New York City based photographer specializing in portraiture, fashion, and lifestyle photography. Capturing subjects in personal and intimate ways."
+        path="/about"
+      />
       <div className="nav-spacer" />
 
       <div ref={containerRef} className="page-container">

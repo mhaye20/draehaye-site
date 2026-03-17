@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import SEO from '@/components/SEO'
 import gsap from 'gsap'
 import { Instagram, Mail, MapPin, ArrowUpRight } from 'lucide-react'
 import { siteConfig } from '@/data/site'
@@ -96,6 +97,11 @@ export default function Contact() {
 
   return (
     <main ref={containerRef} className="min-h-screen">
+      <SEO
+        title="Contact"
+        description="Hire Andrae Drae Haye for your next photography project in Brooklyn or New York City. Available for portraits, fashion, editorial, commercial, and lifestyle shoots. Get in touch today."
+        path="/contact"
+      />
       {/* Hero Banner */}
       <section className="relative w-full noise-overlay overflow-hidden" style={{ height: '55vh', minHeight: '350px' }}>
         <div

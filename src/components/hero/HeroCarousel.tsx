@@ -79,7 +79,7 @@ export default function HeroCarousel() {
   }
 
   return (
-    <section className="relative w-full h-screen overflow-hidden noise-overlay">
+    <section className="relative w-full overflow-hidden noise-overlay" style={{ height: '100dvh' }}>
       {/* Top gradient — sits above Swiper for nav readability */}
       <div
         style={{
@@ -118,7 +118,7 @@ export default function HeroCarousel() {
       >
         {heroSlides.map((slide) => (
           <SwiperSlide key={slide.id}>
-            <div className="relative w-full h-screen">
+            <div className="relative w-full" style={{ height: '100dvh' }}>
               <img
                 src={slide.src}
                 alt={slide.alt}

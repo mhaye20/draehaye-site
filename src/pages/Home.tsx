@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import SEO from '@/components/SEO'
 import { Link } from 'react-router-dom'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -49,6 +50,7 @@ export default function Home() {
 
   return (
     <main>
+      <SEO path="/" />
       <HeroCarousel />
 
       {/* Featured Work */}

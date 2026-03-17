@@ -1,0 +1,16 @@
+{
+  "name": "Drae Haye Photography",
+  "short_name": "Drae Haye",
+  "description": "Brooklyn & NYC photographer specializing in portraits, fashion, street, and lifestyle photography.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFAFA",
+  "theme_color": "#1A1A1A",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
