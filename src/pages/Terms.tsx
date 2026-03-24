@@ -31,13 +31,24 @@ export default function Terms() {
           <ul>
             <li>The information you provide is accurate</li>
             <li>You consent to being contacted in response to your inquiry</li>
-            <li>You understand an SMS notification will be sent to our team</li>
+            <li>You understand that submitting the form will trigger an SMS notification to our business owner containing your name, email, subject, and message preview</li>
+            <li>No SMS messages will be sent to you, the form submitter</li>
           </ul>
 
-          <h2>Messaging Consent</h2>
+          <h2>Messaging Consent &amp; SMS Disclosure</h2>
           <p>
-            Our contact form uses SMS to notify our team of new inquiries. No marketing or promotional text messages are sent to users. The SMS notification is a one-time, internal alert sent to our business phone number only. Standard message and data rates may apply to our business line.
+            By submitting the contact form and checking the consent checkbox, you acknowledge and agree that:
           </p>
+          <ul>
+            <li>An SMS notification will be sent to our business phone to alert us of your inquiry</li>
+            <li>This is a one-way, internal notification — no SMS messages are sent to form submitters</li>
+            <li>No marketing, promotional, or recurring text messages are sent to any party</li>
+            <li>Message frequency: one (1) SMS per form submission</li>
+            <li>Standard message and data rates may apply to our business line</li>
+            <li>SMS delivery is provided by Twilio Inc.</li>
+            <li>You may contact us via email at andraehaye@gmail.com as an alternative to the contact form</li>
+            <li>For questions about messaging, contact andraehaye@gmail.com</li>
+          </ul>
 
           <h2>Disclaimer</h2>
           <p>

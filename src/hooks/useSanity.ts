@@ -67,7 +67,7 @@ export function useHeroSlides() {
 
   return data.map((slide) => ({
     id: slide._id,
-    src: urlFor(slide.image).width(1920).quality(85).url(),
+    src: urlFor(slide.image).width(1920).height(1080).fit('max').quality(85).url(),
     alt: slide.title,
   }))
 }

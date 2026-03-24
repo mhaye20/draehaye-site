@@ -205,7 +205,7 @@ export default function Contact() {
               <label className="contact-field" style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem', marginBottom: '2rem', cursor: 'pointer' }}>
                 <input type="checkbox" required style={{ marginTop: '3px', accentColor: 'var(--color-accent)' }} />
                 <span className="font-body" style={{ fontSize: '13px', color: 'var(--color-muted)', lineHeight: 1.6 }}>
-                  I agree to the <a href="/privacy" target="_blank" style={{ color: 'var(--color-accent)' }}>Privacy Policy</a> and <a href="/terms" target="_blank" style={{ color: 'var(--color-accent)' }}>Terms & Conditions</a>, and consent to being contacted regarding my inquiry.
+                  By submitting this form, I agree to the <a href="/privacy" target="_blank" style={{ color: 'var(--color-accent)' }}>Privacy Policy</a> and <a href="/terms" target="_blank" style={{ color: 'var(--color-accent)' }}>Terms & Conditions</a>. I consent to being contacted regarding my inquiry. I understand that submitting this form will trigger an SMS notification to the business owner to alert them of my inquiry. No SMS messages will be sent to me. Message and data rates may apply.
                 </span>
               </label>
 

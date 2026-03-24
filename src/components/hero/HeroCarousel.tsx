@@ -122,10 +122,10 @@ export default function HeroCarousel() {
               <img
                 src={slide.src}
                 alt={slide.alt}
-                className="w-full h-full object-cover scale-105"
+                className="w-full h-full object-cover"
                 loading={slide.id === 'hero-1' ? 'eager' : 'lazy'}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             </div>
           </SwiperSlide>
         ))}

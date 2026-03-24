@@ -36,7 +36,10 @@ export default function Privacy() {
 
           <h2>SMS/Text Messaging</h2>
           <p>
-            When you submit our contact form, an SMS notification is sent to our business phone number to alert us of your inquiry. No SMS messages are sent to you, the user, unless you separately request it. We use Twilio, a third-party service provider, to facilitate these notifications. Twilio's privacy policy can be found at <a href="https://www.twilio.com/legal/privacy" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent)' }}>twilio.com/legal/privacy</a>.
+            When you submit our contact form, you consent to an SMS notification being sent to our business phone number to alert us of your inquiry. This is a one-way, internal notification only — no SMS messages are sent to you, the form submitter. The SMS contains your name, email, subject, and a preview of your message so we can respond promptly.
+          </p>
+          <p>
+            We use Twilio, a third-party service provider, to deliver these SMS notifications. No marketing or promotional messages are sent. Message frequency is limited to one SMS per form submission. Standard message and data rates may apply to our business line only. You may opt out of this process by contacting us directly via email instead. Twilio's privacy policy can be found at <a href="https://www.twilio.com/legal/privacy" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent)' }}>twilio.com/legal/privacy</a>.
           </p>
 
           <h2>Data Storage</h2>
